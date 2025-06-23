@@ -1,0 +1,13 @@
+services:
+  agente1:
+    build: 
+      context: ./agente1_sintomas
+    ports:
+      - "5000:5000"
+
+  gateway:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "5002:5000"
