@@ -7,7 +7,7 @@ data = {
 }
 
 try:
-    response = requests.post("http://localhost:5000/triagem", json=data)
+    response = requests.post("http://localhost:5002/triagem", json=data)
     print("Status:", response.status_code)
     print("Resposta do gateway:")
     print(response.json())

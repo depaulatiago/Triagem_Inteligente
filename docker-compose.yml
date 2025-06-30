@@ -7,7 +7,6 @@ services:
 
   gateway:
     build: 
-      context: .
-      dockerfile: Dockerfile
+      context: ./gateway    
     ports:
       - "5002:5000"
