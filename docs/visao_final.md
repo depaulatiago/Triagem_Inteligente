@@ -9,6 +9,8 @@ O Nginx é responsável por:
 
 **Diagrama da Arquitetura Final:**
 
+> Para vizualizar, instale a extensão do vscode para interpretar mermaid: Markdown Preview Mermaid Support
+
 ```mermaid
 graph TD
     subgraph "Ambiente do Usuário"

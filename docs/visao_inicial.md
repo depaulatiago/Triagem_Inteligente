@@ -10,6 +10,8 @@ Nesta visão, os três microserviços (`agente1`, `agente2` e `gateway`) são or
 
 **Diagrama da Arquitetura Inicial:**
 
+> Para vizualizar, instale a extensão do vscode para interpretar mermaid: Markdown Preview Mermaid Support
+
 ```mermaid
 graph TD
     subgraph "Ambiente do Usuário"

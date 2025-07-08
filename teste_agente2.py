@@ -1,7 +1,7 @@
 import requests
 
 data = {
-    "texto": "idoso com comorbidades"
+    "texto": "O trabalho tem sido uma loucura, estou muito estressado e sobrecarregado."
 }
 
 response = requests.post("http://localhost:5001/analisar_contexto", json=data)

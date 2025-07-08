@@ -26,7 +26,7 @@ def triagem():
         resposta_agente1 = requests.post(AGENTE1_URL, json=data)
         resultado_agente1 = resposta_agente1.json()
 
-        resposta_agente2 = requests.post(AGENTE2_URL, json={"texto": data.get("contexto", "")})
+        resposta_agente2 = requests.post(AGENTE2_URL, json={"texto": data.get("texto", "")})
         resultado_agente2 = resposta_agente2.json()
 
         resposta_final = {

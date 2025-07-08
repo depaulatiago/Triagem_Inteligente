@@ -102,9 +102,9 @@ Assim, o sistema contribui para uma triagem mais **ágil**, **contextualizada** 
 
 ## 👥 Equipe
 
-* Nome 1 (responsável pelo agente 1)
-* Nome 2 (responsável pelo agente 2)
-* Nome 3 (gateway, integração e documentação)
+* Tiago de Paula Martins (responsável pelo agente 1)
+* Gustavo do Carmo Resende (responsável pelo agente 2)
+* Alexandre Marques Spinola (gateway, integração e documentação)
 
 ## 📘 Licença
 
